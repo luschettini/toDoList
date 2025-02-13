@@ -16,14 +16,38 @@ body {
 }
 
 .container {
-    display: flex;
     background-color:rgb(255, 255, 255);
-    width: 40%;
+    box-shadow: 0 0 10px rgba(3, 3, 3, 0.993);
+    width: 100%;
     min-height: 30vh;
     padding: 20px;
     border-radius: 12px;
-    box-shadow: 0 0 10px rgba(3, 3, 3, 0.993);
     text-align: center;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
+
+.task {
+    display: flex;
+    margin-bottom: 200px;
+    padding: 10px;
+    flex: 1;
+}
+.new-task {
+    padding: 9.4px;
+    height: 40px;
+    width: 400px;
+    border-radius: 5px 0 0 5px;;
+}
+
+.task-button {
+    background-color: royalblue;
+    border-radius: 5px 0 0 5px;
+    border: none;
+    padding: 10px;
+}
+
+
+
